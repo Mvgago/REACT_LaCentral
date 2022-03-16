@@ -1,0 +1,100 @@
+@import './../../styles/variables';
+
+.card-login {
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $primary;
+    height: 400px;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 95px;
+    border-radius: $borderRadius;
+    color: $light;
+    overflow: hidden;
+
+    &__saludo {
+        font-size: 30px;
+        margin-right: 120px;
+        margin-bottom: 20px;
+        
+    }
+
+    &__usuario {
+        margin: 2px;
+        width: fit-content;
+        height: fit-content; 
+        &__input {
+            border-radius: $borderRadius;
+            border-color: transparent;
+            height: 27px;
+            width: 190px;
+            margin: 5px;
+        }
+    }
+
+    &__email {
+        margin: 2px;
+        width: fit-content;
+        height: fit-content; 
+        &__input {
+            border-radius: $borderRadius;
+            border-color: transparent;
+            height: 27px;
+            width: 190px;
+            margin: 5px;
+        }
+
+    }
+
+
+    &__contraseña {
+        margin: 2px;
+        width: fit-content;
+        height: fit-content; 
+
+        margin: 5px;
+        width: fit-content;
+        height: fit-content; 
+        &__input {
+            border-radius: $borderRadius;
+            border-color: transparent;
+            height: 27px;
+            width: 190px;
+            margin: 5px;
+        }
+    }
+
+    &__btn {
+        cursor: pointer;
+        outline: none;
+        padding: 0.50rem 1.25rem;
+        border-radius: $borderRadius;
+        font-size: 1rem;
+        font-family: inherit;
+        background-color: $light;
+        color: $dark;
+        border: 1px solid transparent;
+        transition: 0.3s ease all;
+        margin: 20px;
+
+        &:hover {
+            border-color: $primary;
+            background:rgba($dark, 0.8);
+            color: $light;
+        }
+
+        &:active {
+            border-color: $light;
+            background: linear-gradient(rgba($primary, 0.2), rgba($primary, 0.3));
+            color: $light;
+        }
+
+
+}
+
+
+
+}

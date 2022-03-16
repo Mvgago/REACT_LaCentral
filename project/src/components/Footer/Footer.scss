@@ -1,0 +1,19 @@
+@import './../../styles/variables';
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: $primary;
+    color: $light;
+    font-family: $fredoka;
+
+    &__raw {
+        margin-left: 1200px;
+        &__icon {
+            margin: 4px;
+        }
+    }
+}

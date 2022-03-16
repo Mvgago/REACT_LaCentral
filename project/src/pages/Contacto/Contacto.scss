@@ -1,0 +1,124 @@
+@import './../../styles/variables';
+
+
+
+.form {
+	background-image: url(../../assets/lacentral.jpg);
+	overflow: hidden;
+	background-position: center center;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+
+	&__card {
+		background-color: $primary;
+		height: 500px;
+		width: 600px;
+		border-radius: $borderRadius;
+		margin-top: 50px;
+		margin-left: 450px;
+		overflow: hidden;
+
+	}
+
+    
+}
+
+
+.formulario {
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;
+	color: $light;
+	
+	&__title {
+		font-size: 25px;
+	}
+
+	&__inputs {
+		margin: 10px;
+
+		&__name {
+			margin: 20px;
+		
+		}
+
+		&__holder {
+			border-radius: $borderRadius;
+			border-color: transparent;
+		
+		}
+	}
+
+	&__error {
+		color:red;
+		font-size: 15px;
+		margin: 5px;
+	}
+
+
+
+	&__inputs2 {
+		margin: 10px;
+
+		&__email {
+			margin: 29px;
+		}
+
+		&__holder2 {
+			border-radius: $borderRadius;
+			border-color: transparent;
+
+		}
+
+	}
+
+	&__end {
+
+		&__susc {
+			margin-top: 10px;
+			background-color: $dark;
+			color: $primary;
+			width: 160px;
+			height: 40px;
+			border-radius: $borderRadius;
+			padding: 10px;
+		}
+
+	}
+
+	&__comments {
+		border-radius: $borderRadius;
+		margin: 20px;
+		height: 100px;
+		width: 400px;
+		padding: 20px;
+	}
+
+	&__btn {
+		cursor: pointer;
+		outline: none;
+		padding: 0.75rem 1.25rem;
+		border-radius: $borderRadius;
+		font-size: 1rem;
+		font-family: inherit;
+		background-color: $light;
+		color: $primary;
+		border: 1px solid transparent;
+		transition: 0.3s ease all;
+		margin: 20px;
+
+		&:hover {
+			border-color: $primary;
+			background: $dark;
+			color: $primary;
+		}
+
+		&:active {
+			border-color: $primary;
+			background: linear-gradient(rgba($primary, 0.2), rgba($primary, 0.3));
+			color: $primary;
+		}
+
+	}
+}

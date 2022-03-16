@@ -1,0 +1,33 @@
+@import './../../styles/variables';
+
+
+.title {
+    font-size: 2em;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.post-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.button {
+    background-color: $primary;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 60px 690px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: $fredoka;
+    border-radius: $borderRadius;
+
+  }

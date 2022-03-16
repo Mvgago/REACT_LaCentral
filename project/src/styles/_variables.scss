@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+// fonts
+$fredoka:'Fredoka', sans-serif;
+
+// colors 
+$dark: rgb(29,29,29);
+$light: #fff;
+$primary: rgb(98, 153, 160);
+//$bk: rgb(244, 244, 255);
+
+// spacing 
+$spacing-md: 16px;
+$spacing-lg: 32 px;
+
+// border radius 
+$borderRadius: 12px;
+
+//border height
+$headerHeight: 100px;
+
+@mixin breakpoint($point) {
+    @if $point == md {
+        @media (min-width: 42em) {
+            @content;
+        }
+            
+    }
+
+}
+

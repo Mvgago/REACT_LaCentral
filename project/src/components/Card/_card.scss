@@ -1,0 +1,90 @@
+@import './../../styles/variables';
+
+
+.card {
+    color: $primary;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(228, 214, 214);
+    padding: 10px;
+    margin: 10px;
+    border-radius: $borderRadius;
+    height: 550px;
+    width: 470px;
+
+    
+    &__overflow {
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        margin-left: 8px;
+        
+        &__img {
+            margin-top: 10px;
+            width: 430px;
+            height: 300px;
+            border-radius: $borderRadius;
+        }
+    }
+
+    &__title {
+        color: $dark;
+        font-size: 30px;
+        align-items: center;
+        text-align: center;
+        margin-left: 120px;
+        margin-top: 10px;
+    }
+
+    &__parraf {
+        color: $dark;
+        margin: 10px;
+        margin-bottom: 20px;
+
+        &__text {
+            align-items: center;
+            text-align: center;
+        }
+    }
+
+
+
+    &__btn {
+        width: 160px;
+        font-size: 18px;
+        align-items: center;
+        text-align: center;
+        border-color: transparent;
+        background-color: $light;
+        height: 40px;
+        border-radius: $borderRadius;
+        color: $dark;
+        font-weight: bolder;
+        margin-left: 150px;
+        text-decoration: none;
+        padding-top: 8px;
+        padding-bottom: 20px;
+
+        &:hover {
+            border-color: transparent;
+            background:$primary;
+            color: $light;
+        }
+
+        &:active {
+            border-color: $primary;
+            background: $light;
+            color: $primary;
+        }
+
+    
+    }
+
+
+   
+}
+
+
+

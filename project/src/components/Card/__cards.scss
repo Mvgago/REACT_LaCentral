@@ -1,0 +1,11 @@
+.row {
+    display: flex;
+    flex-direction: row;
+
+    &__card {
+        text-align: center;
+        align-items: center;
+        
+
+    }
+}

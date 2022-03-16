@@ -1,0 +1,93 @@
+@import './../../styles/variables';
+
+
+.login {
+    background-image: url(./../../assets/fondo3.jpg);
+    background-position: center center;
+    height: 900px;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+
+    &__welcome {
+        background-image: url(./../../assets/sesion.jpg);
+        height: 900px;
+        color: $light;
+        overflow: hidden;
+
+        
+        &__btn {
+        border-radius: $borderRadius;
+        color: $light;
+        background-color: $dark;
+        border-color: transparent;
+        height: 45px;
+        width: 115px;
+        margin-left:  1345px;
+        margin-top: 30px;
+        }
+
+        &__title {
+            margin-top: 40px;
+            margin-left: 45px;
+            font-size: 60px;
+            font-weight: bolder;
+            margin-bottom: 20px;
+            white-space: normal;
+        }
+
+        &__menu {
+            
+
+            &__btn {
+                width: 260px;
+                margin: 5px;
+                border-radius: $borderRadius;
+                border-color: transparent;
+                background-color: $light;
+                height: 40px;
+                font-size: 15px;
+
+                &:hover {
+                    border-color: transparent;
+                    background:$primary;
+                    color: $light;
+                }
+
+                &:active {
+                    border-color: $primary;
+                    background: $light;
+                    color: $primary;
+                }
+
+            }
+
+            &__items {
+                display: flex;
+                flex-direction: column;
+                margin-left: 50px;
+                padding-right: 50px;
+
+                &__libro {
+                    height: 400px;
+                    width: 600px;
+                }
+
+            }
+
+        }
+
+        &__divider {
+            width: 220px;
+            height: 5px;
+            color: $light;
+            background-color: $light;
+            margin-top: 10px;
+        }
+
+       
+
+    }
+
+    
+}

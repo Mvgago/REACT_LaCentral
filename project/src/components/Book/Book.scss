@@ -1,0 +1,81 @@
+@import './../../styles/variables';
+
+
+.title {
+    font-size: 3rem;
+    color: $primary;
+}
+
+.card-book {
+    padding: 30px;
+    
+    
+    &__img{
+        img {
+            border-radius: 20px;
+            width: 180px;
+            padding-bottom: 10px;
+        }
+    }
+
+    &__font {
+        color: $primary;
+    }
+    
+
+    &__list {
+        &__btn {
+            cursor: pointer;
+            outline: none;
+            padding: 0.50rem 1.25rem;
+            border-radius: $borderRadius;
+            font-size: 1rem;
+            font-family: inherit;
+            background-color: $primary;
+            color: $dark;
+            border: 1px solid transparent;
+            transition: 0.3s ease all;
+            margin-right: 10px;
+            margin-top: 10px;
+    
+
+            &:hover {
+                border-color: $primary;
+                background:rgba($dark, 0.8);
+                color: $light;
+            }
+
+            &:active {
+                border-color: $light;
+                background: linear-gradient(rgba($primary, 0.2), rgba($primary, 0.3));
+                color: $light;
+            }
+        }
+        
+
+        &__links {
+            align-items: center;
+            border-radius: $borderRadius;
+            margin-top: 10px;
+            padding: 10px;
+            width: 180px; 
+            background-color: $primary;
+            color: $dark;
+            height: 300px;
+
+
+
+            :link{
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                color: $light;
+            }
+            :visited{
+                color: $light;
+            }
+        }
+
+    }
+
+}
